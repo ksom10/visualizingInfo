@@ -3,7 +3,7 @@ var margin = {top: 30, right: 30, bottom: 70, left: 60},
     width = window.innerWidth/2 - margin.left - margin.right,
     height = window.innerHeight/1.5 - margin.top - margin.bottom;
 
-var svg = d3.select("#my_dataviz")
+var svg = d3.select("#dataSet")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
